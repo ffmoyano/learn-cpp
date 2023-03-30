@@ -19,7 +19,9 @@ void variable_assignment(int x) {
 void variable_initialization() {
 
     // variable initialization: combines definition and assignment in one statement
-    int a;          // no initializer (default initialization) this leaves the variable with an undetermined value
+    int a;          // no initializer (default initialization) this leaves the variable with an undetermined value,
+                    // except global and static variables, which always have the zero value
+
     int b = 5;      // initializer after equals sign (copy initialization)
     int c(6);       // initializer in parentheses (direct initialization)
 

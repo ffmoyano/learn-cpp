@@ -5,3 +5,7 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_executable(01_01_comments 01_01_comments/main.cpp)
 add_executable(01_02_variables 01_02_variables/main.cpp)
+add_executable(01_03_iostream 01_03_iostream/main.cpp)
+add_executable(01_04_naming_conventions 01_04_naming_conventions/main.cpp)
+add_executable(02_01_functions 02_01_functions/main.cpp)
+add_executable(02_02_function_forward_declaration 02_02_function_forward_declaration/main.cpp)
