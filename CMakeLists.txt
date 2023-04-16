@@ -27,4 +27,5 @@ add_executable(04_03_comma_operator_comma_separator 04_03_comma_operator_comma_s
 add_executable(04_04_conditional_operator 04_04_conditional_operator/main.cpp)
 add_executable(05_01_bit_manipulation 05_01_bit_manipulation/main.cpp)
 add_executable(05_02_bitwise_operators 05_02_bitwise_operators/main.cpp)
-add_executable(05_03_bit_masks 05_03_bit_masks/main.cpp)
+add_executable(06_01_namespaces 06_01_namespaces/main.cpp)
+add_executable(06_02_local_and_global_variables 06_02_local_and_global_variables/main.cpp)
