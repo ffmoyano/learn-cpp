@@ -8,6 +8,7 @@
  * global variables are considered part of the global namespace
  */
 int gMyGlobalVariable;
+const int gMyConstantGlobalVariable {5};
 
 int main() {
     /*
