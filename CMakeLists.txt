@@ -31,3 +31,5 @@ add_executable("06_01_namespaces" "06_scope_duration_linkage/06_01_namespaces/ma
 add_executable("06_02_local_and_global_variables" "06_scope_duration_linkage/06_02_local_and_global_variables/main.cpp")
 add_executable("06_03_linkage" "06_scope_duration_linkage/06_03_linkage/main.cpp")
 add_executable("06_04_inline_variables" "06_scope_duration_linkage/06_04_inline_variables/main.cpp" "06_scope_duration_linkage/06_04_inline_variables/inline_variables.h")
+add_executable("06_05_constexpr_consteval" "06_scope_duration_linkage/06_05_constexpr_consteval/main.cpp")
+add_executable("06_06_unnamed_and_inline_namespaces" "06_scope_duration_linkage/06_06_unnamed_and_inline_namespaces/main.cpp")
