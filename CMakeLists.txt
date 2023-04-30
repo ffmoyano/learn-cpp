@@ -33,3 +33,8 @@ add_executable("06_03_linkage" "06_scope_duration_linkage/06_03_linkage/main.cpp
 add_executable("06_04_inline_variables" "06_scope_duration_linkage/06_04_inline_variables/main.cpp" "06_scope_duration_linkage/06_04_inline_variables/inline_variables.h")
 add_executable("06_05_constexpr_consteval" "06_scope_duration_linkage/06_05_constexpr_consteval/main.cpp")
 add_executable("06_06_unnamed_and_inline_namespaces" "06_scope_duration_linkage/06_06_unnamed_and_inline_namespaces/main.cpp")
+add_executable("07_01_if_else" "07_control_flow/07_01_if_else/main.cpp")
+add_executable("07_02_switch" "07_control_flow/07_02_switch/main.cpp")
+add_executable("07_03_goto" "07_control_flow/07_03_goto/main.cpp")
+add_executable("07_04_while" "07_control_flow/07_04_while/main.cpp")
+add_executable("07_05_for" "07_control_flow/07_05_for/main.cpp")

@@ -10,33 +10,26 @@
  * of the file in which the unnamed namespace is defined.For functions, this is effectively the same as defining
  * all functions in the unnamed namespace as static functions.
  */
-namespace // unnamed namespace
-{
-    void unnamed() // can only be accessed in this file
-    {
+namespace {// unnamed namespace
+    void unnamed() { // can only be accessed in this file
         std::cout << "unnamed\n";
     }
 }
 
-inline namespace v1 // declare an inline namespace named v1
-{
-    void doSomething()
-    {
+inline namespace v1 { // declare an inline namespace named v1
+    void doSomething() {
         std::cout << "v1\n";
     }
 }
 
-namespace v2 // declare a normal namespace named v2
-{
-    void doSomething()
-    {
+namespace v2 { // declare a normal namespace named v2
+    void doSomething() {
         std::cout << "v2\n";
     }
 }
 
 
-int main()
-{
+int main() {
     unnamed(); // we can call doSomething() without a namespace prefix
 
     v1::doSomething(); // calls the v1 version of doSomething()
