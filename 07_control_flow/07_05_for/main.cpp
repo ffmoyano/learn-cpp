@@ -21,7 +21,7 @@ int main() {
         }
     }
 
-    for (int k{0}, l{10}; (k <= 0) || (l >= 10); ++k, --l) {  // we can use more than one variable in each section of the for loop
+    for (int k{0}, l{10}; (k <= 10) || (l >= 0); ++k, --l) {  // we can use more than one variable in each section of the for loop
         std::cout << "K: " << k << " L: " << l << '\n';
     }
 
