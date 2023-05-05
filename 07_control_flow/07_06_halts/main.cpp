@@ -14,4 +14,15 @@ int main() {
     // explicit use is DISCOURAGED because does not clean up any local variables
     // (either in the current function, or in functions up the call stack. Exceptions are preferred
     std::exit(0);  // thanks to std::atexit, cleanup() is called here
+
+    /*
+     * The std::abort() function causes your program to terminate abnormally.
+     * Abnormal termination means the program had some kind of unusual runtime error and the program couldn’t continue to run
+     * std::abort() doesn't do any cleanup
+     */
+    std::abort();
+    /*
+     * The std::terminate() function is typically used in conjunction with exceptions. By default std::terminate calls std::abort
+     */
+    std::terminate();
 }
