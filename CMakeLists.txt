@@ -44,3 +44,8 @@ add_executable("08_01_implicit_conversion" "08_type_conversion_function_overload
 add_executable("08_02_numeric_promotions" "08_type_conversion_function_overloading/08_02_numeric_promotions/main.cpp")
 add_executable("08_03_numeric_conversions" "08_type_conversion_function_overloading/08_03_numeric_conversions/main.cpp")
 add_executable("08_04_arithmetic_conversions" "08_type_conversion_function_overloading/08_04_arithmetic_conversions/main.cpp")
+add_executable("08_05_static_cast" "08_type_conversion_function_overloading/08_05_static_cast/main.cpp")
+add_executable("08_06_typedef_and_type_alias" "08_type_conversion_function_overloading/08_06_typedef_and_type_alias/main.cpp")
+add_executable("08_07_type_deduction_objects" "08_type_conversion_function_overloading/08_07_type_deduction_objects/main.cpp")
+add_executable("08_08_type_deduction_functions" "08_type_conversion_function_overloading/08_08_type_deduction_functions/main.cpp")
+add_executable("08_09_function_overloading" "08_type_conversion_function_overloading/08_09_function_overloading/main.cpp")
