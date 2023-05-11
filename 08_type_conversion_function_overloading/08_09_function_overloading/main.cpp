@@ -1,12 +1,10 @@
 #include <iostream>
 
-int add(int x, int y)
-{
+int add(int x, int y) {
     return x + y;
 }
 
-double add(double x, double y)
-{
+double add(double x, double y) {
     return x + y;
 }
 
@@ -16,16 +14,13 @@ double add(double x, double y)
 //
 //}
 
-void print(int)
-{
+void print(int) {
 }
 
-void print(double)
-{
+void print(double) {
 }
 
-int main()
-{
+int main() {
     std::cout << add(1, 2); // calls add(int, int)
     std::cout << '\n';
     std::cout << add(1.2, 3.4); // calls add(double, double)

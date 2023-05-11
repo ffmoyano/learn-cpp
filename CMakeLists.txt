@@ -49,3 +49,5 @@ add_executable("08_06_typedef_and_type_alias" "08_type_conversion_function_overl
 add_executable("08_07_type_deduction_objects" "08_type_conversion_function_overloading/08_07_type_deduction_objects/main.cpp")
 add_executable("08_08_type_deduction_functions" "08_type_conversion_function_overloading/08_08_type_deduction_functions/main.cpp")
 add_executable("08_09_function_overloading" "08_type_conversion_function_overloading/08_09_function_overloading/main.cpp")
+add_executable("08_10_default_arguments" "08_type_conversion_function_overloading/08_10_default_arguments/main.cpp")
+add_executable("08_11_function_templates" "08_type_conversion_function_overloading/08_11_function_templates/main.cpp")
