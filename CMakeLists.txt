@@ -51,3 +51,6 @@ add_executable("08_08_type_deduction_functions" "08_type_conversion_function_ove
 add_executable("08_09_function_overloading" "08_type_conversion_function_overloading/08_09_function_overloading/main.cpp")
 add_executable("08_10_default_arguments" "08_type_conversion_function_overloading/08_10_default_arguments/main.cpp")
 add_executable("08_11_function_templates" "08_type_conversion_function_overloading/08_11_function_templates/main.cpp")
+add_executable("09_01_lvalue_reference" "09_references_and_pointers/09_01_lvalue_reference/main.cpp")
+add_executable("09_02_lvalue_reference_to_const" "09_references_and_pointers/09_02_lvalue_reference_to_const/main.cpp")
+add_executable("09_03_pass_by_lvalue_reference" "09_references_and_pointers/09_03_pass_by_lvalue_reference/main.cpp")
