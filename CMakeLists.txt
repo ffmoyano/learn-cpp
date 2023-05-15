@@ -59,3 +59,4 @@ add_executable("09_05_null_pointers" "09_references_and_pointers/09_05_null_poin
 add_executable("09_06_ponters_and_const" "09_references_and_pointers/09_06_pointers_and_const/main.cpp")
 add_executable("09_07_pass_by_address" "09_references_and_pointers/09_07_pass_by_address/main.cpp")
 add_executable("09_08_return_by_reference_and_address" "09_references_and_pointers/09_08_return_by_reference_and_address/main.cpp")
+add_executable("09_09_type_deduction_references_pointers" "09_references_and_pointers/09_09_type_deduction_references_pointers/main.cpp")
