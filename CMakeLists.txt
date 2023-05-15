@@ -54,3 +54,8 @@ add_executable("08_11_function_templates" "08_type_conversion_function_overloadi
 add_executable("09_01_lvalue_reference" "09_references_and_pointers/09_01_lvalue_reference/main.cpp")
 add_executable("09_02_lvalue_reference_to_const" "09_references_and_pointers/09_02_lvalue_reference_to_const/main.cpp")
 add_executable("09_03_pass_by_lvalue_reference" "09_references_and_pointers/09_03_pass_by_lvalue_reference/main.cpp")
+add_executable("09_04_pointers" "09_references_and_pointers/09_04_pointers/main.cpp")
+add_executable("09_05_null_pointers" "09_references_and_pointers/09_05_null_pointers/main.cpp")
+add_executable("09_06_ponters_and_const" "09_references_and_pointers/09_06_pointers_and_const/main.cpp")
+add_executable("09_07_pass_by_address" "09_references_and_pointers/09_07_pass_by_address/main.cpp")
+add_executable("09_08_return_by_reference_and_address" "09_references_and_pointers/09_08_return_by_reference_and_address/main.cpp")
