@@ -60,3 +60,5 @@ add_executable("09_06_ponters_and_const" "09_references_and_pointers/09_06_point
 add_executable("09_07_pass_by_address" "09_references_and_pointers/09_07_pass_by_address/main.cpp")
 add_executable("09_08_return_by_reference_and_address" "09_references_and_pointers/09_08_return_by_reference_and_address/main.cpp")
 add_executable("09_09_type_deduction_references_pointers" "09_references_and_pointers/09_09_type_deduction_references_pointers/main.cpp")
+add_executable("10_01_user_defined_types" "10_enums_and_structs/10_01_user_defined_types/main.cpp")
+add_executable("10_02_unscoped_enumerations" "10_enums_and_structs/10_02_unscoped_enumerations/main.cpp")
