@@ -1,3 +1,5 @@
+#include <cstdint>
+
 // Define a new unscoped enumeration named Color
 
 // unscoped enum put their enumerators in the same scope they are declared, so to avoid name collisions
