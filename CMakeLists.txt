@@ -76,3 +76,8 @@ add_executable("10_04_structs_and_members" "10_enums_and_structs/10_04_structs_a
 add_executable("10_05_structs_passing" "10_enums_and_structs/10_05_struct_passing/main.cpp")
 add_executable("10_06_member_selection_with_pointer_and_reference" "10_enums_and_structs/10_06_member_selection_with_pointer_and_reference/main.cpp")
 add_executable("10_07_class_templates" "10_enums_and_structs/10_07_class_templates/main.cpp")
+add_executable("10_08_class_template_argument_deduction" "10_enums_and_structs/10_08_class_template_argument_deduction/main.cpp")
+add_executable("11_01_arrays_1" "11_arrays_strings_and_dynamic_allocation/11_01_arrays_1/main.cpp")
+add_executable("11_02_arrays_2" "11_arrays_strings_and_dynamic_allocation/11_02_arrays_2/main.cpp")
+add_executable("11_03_loops_and_arrays" "11_arrays_strings_and_dynamic_allocation/11_03_loops_and_arrays/main.cpp")
+
