@@ -80,4 +80,6 @@ add_executable("10_08_class_template_argument_deduction" "10_enums_and_structs/1
 add_executable("11_01_arrays_1" "11_arrays_strings_and_dynamic_allocation/11_01_arrays_1/main.cpp")
 add_executable("11_02_arrays_2" "11_arrays_strings_and_dynamic_allocation/11_02_arrays_2/main.cpp")
 add_executable("11_03_loops_and_arrays" "11_arrays_strings_and_dynamic_allocation/11_03_loops_and_arrays/main.cpp")
-
+add_executable("11_04_selection_sort" "11_arrays_strings_and_dynamic_allocation/11_04_selection_sort/main.cpp")
+add_executable("11_05_multidimensional_arrays" "11_arrays_strings_and_dynamic_allocation/11_05_multidimensional_arrays/main.cpp")
+add_executable("11_06_c_style_strings" "11_arrays_strings_and_dynamic_allocation/11_06_c_style_strings/main.cpp")

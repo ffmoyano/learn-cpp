@@ -35,7 +35,6 @@ int main() {
     constexpr int x{ 5 };
     constexpr int y{ 6 }; // if these weren't constexpr, greaterCompile would have to be evaluated at runtime
 
-    // We'll explain why we use variable g here later in the lesson
     constexpr int g { greaterCompile(x, y) }; // will be evaluated at compile-time
     std::cout << g << " is greater!\n";
     std::cout << greaterRuntime(x, y) << " is greater!\n"; // will be evaluated at runtime
