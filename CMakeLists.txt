@@ -83,3 +83,7 @@ add_executable("11_03_loops_and_arrays" "11_arrays_strings_and_dynamic_allocatio
 add_executable("11_04_selection_sort" "11_arrays_strings_and_dynamic_allocation/11_04_selection_sort/main.cpp")
 add_executable("11_05_multidimensional_arrays" "11_arrays_strings_and_dynamic_allocation/11_05_multidimensional_arrays/main.cpp")
 add_executable("11_06_c_style_strings" "11_arrays_strings_and_dynamic_allocation/11_06_c_style_strings/main.cpp")
+add_executable("11_07_string_views" "11_arrays_strings_and_dynamic_allocation/11_07_string_views/main.cpp")
+add_executable("11_08_dynamic_memory_allocation" "11_arrays_strings_and_dynamic_allocation/11_08_dynamic_memory_allocation/main.cpp")
+add_executable("11_09_foreach_loops" "11_arrays_strings_and_dynamic_allocation/11_09_foreach_loops/main.cpp")
+add_executable("11_10_void_pointer" "11_arrays_strings_and_dynamic_allocation/11_10_void_pointer/main.cpp")

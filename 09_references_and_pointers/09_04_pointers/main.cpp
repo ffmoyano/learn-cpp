@@ -1,6 +1,8 @@
 
 #include <iostream>
 
+// Pointers have the additional abilities of being able to change what they are pointing at, and to be pointed at null.
+// dereferencing a pointer which points to null leads to undefined behaviour
 // use references over pointers if the capabilities of the latter are not needed
 int main()
 {

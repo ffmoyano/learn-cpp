@@ -1,7 +1,7 @@
 #include <iostream>
 
-// when passing an array to a function no copy is made, the actual array is passed and therefore changes made to
-// the array inside the function are reflected in the object outside as if a reference was passed.
+// when passing an array to a function no copy is made, a pointer to the first element of the array is passed
+// and therefore changes made to the array inside the function are reflected in the object outside as if a reference was passed.
 // this is because making a copy could be very expensive
 void passArray(int prime[5]) // prime is the actual array
 {
