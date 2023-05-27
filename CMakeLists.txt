@@ -94,3 +94,5 @@ add_executable("11_14_std_library_algorithms" "11_arrays_strings_and_dynamic_all
 add_executable("12_01_function_pointers" "12_functions/12_01_function_pointers/main.cpp")
 add_executable("12_02_vector_capacity" "12_functions/12_02_vector_capacity/main.cpp")
 add_executable("12_03_recursion" "12_functions/12_03_recursion/main.cpp")
+add_executable("12_04_cmd_line_arguments" "12_functions/12_04_cmd_line_arguments/main.cpp")
+add_executable("12_05_lambdas" "12_functions/12_05_lambdas/main.cpp")
