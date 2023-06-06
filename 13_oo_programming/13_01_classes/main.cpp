@@ -17,7 +17,7 @@ public:
 
     static int common; // static member variables are shared by all objects of this class, they must be initialized out of class
 
-    static double getPi(){
+    static double getPi(){  // this class is called by the class itself, not an instance, and can be used to work with static members
         return pi;
     };
 
