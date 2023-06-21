@@ -98,3 +98,7 @@ add_executable("12_04_cmd_line_arguments" "12_functions/12_04_cmd_line_arguments
 add_executable("12_05_lambdas" "12_functions/12_05_lambdas/main.cpp")
 add_executable("13_01_classes" "13_oo_programming/13_01_classes/main.cpp")
 add_executable("13_02_class_in_header" "13_oo_programming/13_02_class_in_header/class_in_header.cpp")
+add_executable("13_03_friend_functions_and_classes" "13_oo_programming/13_03_friend_functions_and_classes/main.cpp")
+add_executable("13_04_anonymous_objects" "13_oo_programming/13_04_anonymous_objects/main.cpp")
+add_executable("13_05_nesting_types" "13_oo_programming/13_05_nesting_types/main.cpp")
+add_executable("13_06_timing_code" "13_oo_programming/13_06_timing_code/main.cpp")
